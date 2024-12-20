@@ -9,8 +9,8 @@ $template_list = TEMPLATE_LIST;
 // $template_list = 'http://owl.test/wp-content/droip-layouts.json';
 
 $prev_img = array(
-	home_url() . '/wp-content/themes/owl/files/business-entrepreneureship.png',
-	home_url() . '/wp-content/themes/owl/files/droip-music-template.png',
+	'https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/business-entrepreneureship.png',
+	'https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/droip-photography-template.jpg',
 );
 ?>
 <div id="tutorowl-demo-import">

@@ -3,16 +3,16 @@
 		"ID": 1,
 		"name": "Business Entrepreneurship",
 		"builder_type": "droip",
-		"src": "/files/business-template.zip",
-		"preview_image": "/files/business-entrepreneureship.png",
+		"src": "https://github.com/nur-alam/owl/raw/refs/heads/main/files/business-template.zip",
+		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/business-entrepreneureship.png",
 		"preview_url": "https://preview.tutorlms.com/university2"
 	},
 	{
 		"ID": 2,
 		"name": "Photography",
 		"builder_type": "droip",
-		"src": "/files/music-template.zip",
-		"preview_image": "/files/droip-music-template.png",
+		"src": "https://github.com/nur-alam/owl/raw/refs/heads/main/files/photography-templates.zip",
+		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/droip-photography-template.jpg",
 		"preview_url": "https://preview.tutorlms.com/university2"
 	}
 ]

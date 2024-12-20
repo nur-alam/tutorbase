@@ -86,8 +86,8 @@ class Ajax {
 			$template_id          = $_POST['template_id'];  //phpcs:ignore
 			$template_list        = Helpers::get_template_list();
 			$template_to_download = $template_list[ $template_id ];
-			// $url                   = $template_to_download['src'];
-			$url                = TUTOROWL_PATH . $template_to_download['src'];
+			$url                  = $template_to_download['src'];
+			// $url                = TUTOROWL_PATH . $template_to_download['src'];
 			$tutor_license_info = get_option( 'tutor_license_info' );
 
 			$template_import = new TemplateImport();
