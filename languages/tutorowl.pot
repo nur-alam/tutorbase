@@ -1,0 +1,97 @@
+# Copyright (C) 2024 Tutor
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: TutorOwl 1.0.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/owl\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-20T06:34:17+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: tutorowl\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "TutorOwl"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "TutorOwl is a free WordPress LMS theme powered by Tutor LMS, the popular eLearning plugin for WordPress. It is designed to let Tutor LMS take center stage while also letting you pick what feels right. Owl is created with the same Unified Design System from Tutor LMS making it the perfect companion eLearning theme for Tutor LMS. Owl is also highly specialized for speed and efficiency, with all of its components optimized to give your eLearning website a great score on Google's PageSpeed. Owl pages are also schema ready and SEO optimized to make ranking on search engines as easy as pie! It also boasts an impressive blog single page for perfect readability. With full support for both Elementor and Gutenberg, Owl hopes to cater to the largest audience of both classic page builders and modern Gutenberg based builders. It comes with customizer settings for headers, footers, and everything in between. With several header and footer variations, advanced typography settings, and contextual page settings, create the eLearning website of your dreams with this free LMS theme. Owl features 3 modern and pre-built home layouts with fully functioning inner pages for both Elementor and Gutenberg to let you get started in no time. Owl also features a clean and light one-click demo importer to import all these pre-built home layouts for Gutenberg and Elementor. This, along with deep ties with Tutor LMS makes it a no-brainer WordPress LMS theme. Please Check theme demo here https://preview.tutorlms.com/"
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Tutor"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.tutorlms.com"
+msgstr ""
+
+#: 404.php:13
+msgid "404 page"
+msgstr ""
+
+#: constants.php:21
+#: views/dashboard.php:103
+msgid "Tutor LMS"
+msgstr ""
+
+#: constants.php:29
+#: views/dashboard.php:115
+msgid "Droip"
+msgstr ""
+
+#: inc/Init.php:41
+msgid "Tutor Owl"
+msgstr ""
+
+#: views/dashboard.php:20
+msgid "Tutor Owl Templates"
+msgstr ""
+
+#: views/dashboard.php:41
+msgid "Preview"
+msgstr ""
+
+#: views/dashboard.php:45
+msgid "Import"
+msgstr ""
+
+#: views/dashboard.php:54
+msgid "No template available."
+msgstr ""
+
+#: views/dashboard.php:67
+msgid "Music Template"
+msgstr ""
+
+#: views/dashboard.php:84
+msgid "Import Successful!"
+msgstr ""
+
+#: views/dashboard.php:86
+msgid "Bingo! Your demo site is ready. Check how it looks."
+msgstr ""
+
+#: views/dashboard.php:89
+msgid "View Site"
+msgstr ""
+
+#: views/dashboard.php:127
+msgid "Contents"
+msgstr ""
+
+#: views/dashboard.php:134
+msgid "Cancel"
+msgstr ""
+
+#: views/dashboard.php:135
+msgid "Import Now"
+msgstr ""
