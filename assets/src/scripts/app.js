@@ -89,8 +89,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			try {
 				importItemSpinner[importItemSpinner.length - 1].classList.add('active');
 				const templateImportResponse = await importContent();
-				// console.log(templateImportResponse);
-				// return;
 				const importRes = await templateImportResponse.json();
 				if (templateImportResponse.ok && importRes.success) {
 					contentDetails.innerHTML = `Downloading <span style="color: #5FAC23; font-weight: 600;">assets...</span>`;
@@ -103,13 +101,8 @@ document.addEventListener('DOMContentLoaded', function () {
 					pluginInstallationDone = false;
 				}
 			} catch (error) {
-				console.log('try catch error!');
 				pluginInstallationDone = false;
 			}
-			// finally {
-			// 	console.log('try catch finally error!');
-			// 	pluginInstallationDone = false;
-			// }
 		}
 		if (!pluginInstallationDone) {
 			retryImportDomUpdate();

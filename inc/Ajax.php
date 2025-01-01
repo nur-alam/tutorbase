@@ -49,7 +49,6 @@ class Ajax {
 	 * @return array
 	 */
 	public function installing_plugin( $plugin_info ) {
-		sleep( 1 );
 		try {
 			if ( ! class_exists( 'WP_Upgrader' ) ) {
 				require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
@@ -89,6 +88,7 @@ class Ajax {
 			$url                  = $template_to_download['src'];
 			// $url                = TUTOROWL_PATH . $template_to_download['src'];
 			$tutor_license_info = get_option( 'tutor_license_info' );
+			// Todo License checking.
 
 			$template_import = new TemplateImport();
 			$is_import       = $template_import->import( $url, 'tutor_' . $template_id, true );
@@ -102,54 +102,6 @@ class Ajax {
 			return $this->response( false, 'Something went wrong!', 'error' );
 		}
 	}
-
-	// /**
-	// * Add comment or reply
-	// *
-	// * @return Array
-	// */
-	// public function import_droip_template() {
-	// try {
-	// $template_id          = $_POST['template_id'];  //phpcs:ignore
-	// $template_list         = Helpers::get_template_list();
-	// $template_to_download  = $template_list[ $template_id ];
-	// $url                   = 'https://315c-119-148-4-217.ngrok-free.app/wp-json/themeum-products/v1/tutor/theme-template-download';
-	// $tutor_license_info    = get_option( 'tutor_license_info' );
-	// $template_src_response = wp_remote_post(
-	// $url,
-	// array(
-	// 'method' => 'POST',
-	// 'body'   => array(
-	// 'slug'        => $template_id,
-	// 'domain'      => home_url(),
-	// 'license_key' => $tutor_license_info['license_key'],
-	// ),
-	// )
-	// );
-
-	// $template_src = json_decode( wp_remote_retrieve_body( $template_src_response ) );
-
-	// if ( 'License missing' === $template_src->response ) {
-	// return $this->response( false, 'License missing', 'error' );
-	// }
-
-	// $src = $template_src->body_response;
-
-	// $src = str_replace( 'http://localhost:10025/', 'https://315c-119-148-4-217.ngrok-free.app/', $src );
-
-	// $template_import = new TemplateImport();
-	// $is_import       = $template_import->import( $src, 'tutor_' . $template_id, true );
-	// $is_import            = Helper::upload_layout_pack( $template_to_download );
-
-	// if ( $is_import ) {
-	// return $this->response( true, 'Content imported', 'done' );
-	// } else {
-	// return $this->response( false, 'Content importing error!', 'error' );
-	// }
-	// } catch ( \Throwable $th ) {
-	// return $this->response( false, 'Something went wrong!', 'error' );
-	// }
-	// }
 
 	/**
 	 * Process_droip_template description

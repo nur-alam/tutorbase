@@ -1,5 +1,5 @@
 body {
-	background-color: #f4f7fb;
+	background-color: #f1f1f1;
 }
 
 //.demo-importer-ui
@@ -35,40 +35,131 @@ body {
 }
 
 #tutorowl-demo-import {
-	padding: 40px 40px 40px 20px;
-	.demo-importer-wrapper {
-		.demo-importer-top {
-			background: #fff;
-			box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
-			border-radius: 3px;
-			margin-bottom: 40px;
-			padding: 10px 30px;
-			display: grid;
-			align-items: center;
-			grid-template-columns: 1fr;
+	background: #f1f1f1;
+	// padding: 40px 40px 40px 20px;
+	max-width: 1170px;
+	margin: 0 auto;
+	.tutorowl-demo-importer-wrapper {
+		.tutorowl-demo-importer-top {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			gap: 30px;
+			margin-bottom: 27px;
+			padding: 20px 0px;
+			border-bottom: 1px solid #e0e2ea;
+			.tutorowl-demo-importer-top-left {
+				display: flex;
+				.tutorowl-top-left-icon {
+					width: 40px;
+					svg {
+						// width: 40px;
+					}
+				}
+			}
+			.tutorowl-top-left-heading {
+				font-family: 'SF Pro';
+				font-size: 20px;
+				font-weight: 510;
+				line-height: 28px;
+				text-align: left;
+				text-underline-position: from-font;
+				text-decoration-skip-ink: none;
+			}
+			.tutorowl-top-left-text {
+				//styleName: text/thin/caption-15px;
+				font-family: SF Pro Display;
+				font-size: 15px;
+				font-weight: 400;
+				line-height: 24px;
+				text-align: left;
+				text-underline-position: from-font;
+				text-decoration-skip-ink: none;
+				margin-top: 2px;
+			}
+			.tutorowl-demo-importer-top-right {
+				.tutorowl-template-search-wrapper {
+					position: relative;
+					svg.tutorowl-template-search-icon {
+						position: absolute;
+						left: 10px;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+				}
+				input {
+					width: 300px;
+					height: 40px;
+					padding: 8px 8px 8px 30px;
+					gap: 4px;
+					border-radius: 6px;
+					border: 1px solid #c3c5cb;
+					opacity: 0px;
+					&::placeholder {
+						font-family: 'SF Pro Display';
+						color: #5b616f;
+						font-size: 16px;
+						font-weight: 400;
+						line-height: 24px;
+						text-align: left;
+						text-underline-position: from-font;
+						text-decoration-skip-ink: none;
+					}
+				}
+			}
 		}
 	}
 	img {
 		width: 100%;
 	}
-	.demo-importer-list {
+	.tutorowl-demo-importer-list {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-		gap: 0px 20px;
-		.single-item {
+		grid-template-columns: repeat(auto-fit, minmax(374px, 1fr));
+		gap: 24px;
+		.tutorowl-single-template {
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
-			padding: 20px;
+			gap: 8px;
+			padding: 12px;
 			box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+			border-radius: 6px;
+			border: 1px solid #e0e2ea;
+			background: white;
 			&:hover {
 				box-shadow: 0px 30px 60px -10px rgba(0, 28, 73, 0.15);
 			}
-			.template-name {
-				margin-bottom: 15px;
+			.tutorowl-single-template-inner {
+			}
+			.tutorowl-single-template-footer {
+				display: flex;
+				justify-content: space-between;
+				gap: 10px;
+				.tutorowl-template-name {
+					// margin-bottom: 15px;
+					.tutorowl-template-badge {
+						width: 42px;
+						height: 20px;
+						padding: 0px 8px 0px 8px;
+						gap: 5.45px;
+						border-radius: 5.45px;
+						opacity: 0px;
+						background: #ffb505;
+						font-family: 'SF Pro Display';
+						color: #212327;
+						font-size: 13px;
+						font-weight: 500;
+						line-height: 21px;
+						text-align: left;
+						text-underline-position: from-font;
+						text-decoration-skip-ink: none;
+					}
+				}
+				a.tutorowl-template-preview {
+				}
 			}
 		}
-		.actions {
+		.tutorowl-template-actions {
 			display: flex;
 			justify-content: center;
 			align-items: center;
