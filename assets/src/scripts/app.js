@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	const modalWrapper = document.getElementById('modal-wrapper');
 	const modalOverlay = document.querySelector('.modal-wrapper-overlay');
 	const modalContent = document.querySelector('.modal-content');
-	const importBtns = document.querySelectorAll('.import-btn');
+	const importBtns = document.querySelectorAll('.tutor-template-import-btn');
 	const importNowBtn = document.querySelector('.import-now');
 	const importCancelBtn = document.getElementById('import-cancel-btn');
 	const modalHead = document.querySelector('.modal-head');
@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
 		item.addEventListener('click', (event) => {
 			templateId = item.dataset.template;
 			modalWrapper.style.display = 'flex';
-			const singleItem = item.closest('.single-item');
-			const template = singleItem.querySelector('.template-name');
+			const singleItem = item.closest('.tutorowl-single-template');
+			const template = singleItem.querySelector('.tutorowl-template-name span');
 			modalHeading.innerText = template.innerText + ' Template';
 		});
 	});

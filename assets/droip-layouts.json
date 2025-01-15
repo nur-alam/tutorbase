@@ -1,18 +1,18 @@
 [
 	{
 		"ID": 1,
-		"name": "Business Entrepreneurship",
+		"name": "Business",
 		"builder_type": "droip",
 		"src": "https://github.com/nur-alam/owl/raw/refs/heads/main/files/business-template.zip",
-		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/business-entrepreneureship.png",
+		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/beatlab-template-preview-img.jpg",
 		"preview_url": ""
 	},
 	{
 		"ID": 2,
-		"name": "Photography",
+		"name": "Music",
 		"builder_type": "droip",
 		"src": "https://github.com/nur-alam/owl/raw/refs/heads/main/files/photography-templates.zip",
-		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/droip-photography-template.jpg",
+		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/edumax-template-preview-img.png",
 		"preview_url": ""
 	},
 	{
@@ -20,7 +20,7 @@
 		"name": "Photography",
 		"builder_type": "droip",
 		"src": "https://github.com/nur-alam/owl/raw/refs/heads/main/files/photography-templates.zip",
-		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/droip-photography-template.jpg",
+		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/beatlab-template-preview-img.jpg",
 		"preview_url": ""
 	},
 	{
@@ -28,15 +28,15 @@
 		"name": "Photography",
 		"builder_type": "droip",
 		"src": "https://github.com/nur-alam/owl/raw/refs/heads/main/files/photography-templates.zip",
-		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/droip-photography-template.jpg",
+		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/edumax-template-preview-img.png",
 		"preview_url": ""
 	},
 	{
 		"ID": 5,
-		"name": "Photography",
+		"name": "Entrepreneurship",
 		"builder_type": "droip",
 		"src": "https://github.com/nur-alam/owl/raw/refs/heads/main/files/photography-templates.zip",
-		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/droip-photography-template.jpg",
+		"preview_image": "https://raw.githubusercontent.com/nur-alam/owl/refs/heads/main/files/beatlab-template-preview-img.jpg",
 		"preview_url": ""
 	}
 ]
