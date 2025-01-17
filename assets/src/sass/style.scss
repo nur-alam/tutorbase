@@ -203,6 +203,13 @@ button.tutor-template-import-btn {
 				}
 				a.tutorowl-template-preview {
 					display: flex;
+					&:hover {
+						svg {
+							path {
+								fill: #3e64de;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -220,7 +227,7 @@ button.tutor-template-import-btn {
 	}
 }
 
-#modal-wrapper {
+#tutorowl-import-modal-wrapper {
 	h1,
 	h2,
 	h3,
@@ -240,7 +247,7 @@ button.tutor-template-import-btn {
 	top: 0;
 	left: 0;
 	display: none;
-	.modal-wrapper-overlay {
+	.tutorowl-modal-wrapper-overlay {
 		position: absolute;
 		background: rgba(0, 0, 0, 0.1);
 		width: 100%;
@@ -249,7 +256,7 @@ button.tutor-template-import-btn {
 		backdrop-filter: blur(20px);
 	}
 
-	.modal-content {
+	.tutorowl-modal-content {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -262,14 +269,14 @@ button.tutor-template-import-btn {
 		border-radius: 10px;
 		padding: 30px;
 		gap: 20px;
-		.modal-head {
+		.tutorowl-modal-head {
 			margin-bottom: 10px;
 		}
-		.import-item-wrapper {
+		.tutorowl-import-item-wrapper {
 			display: flex;
 			flex-direction: column;
 			gap: 15px;
-			.import-item {
+			.tutorowl-import-item {
 				display: flex;
 				gap: 10px;
 				.title {
@@ -277,7 +284,7 @@ button.tutor-template-import-btn {
 				}
 			}
 		}
-		.modal-footer {
+		.tutorowl-modal-footer {
 			display: grid;
 			grid-template-columns: 1fr 2fr;
 			gap: 30px;
@@ -309,7 +316,7 @@ button.tutor-template-import-btn {
 	}
 }
 
-.success-block-wrapper {
+.tutorowl-success-block-wrapper {
 	display: none;
 	flex-direction: column;
 	align-items: flex-start;
@@ -319,7 +326,7 @@ button.tutor-template-import-btn {
 	border-radius: 6px;
 	margin-bottom: 15px;
 	animation: fadeIn 0.4s linear;
-	.success-block {
+	.tutorowl-success-block {
 		a.btn-primary {
 			margin-top: 10px;
 			display: inline-block;
@@ -330,7 +337,7 @@ button.tutor-template-import-btn {
 			}
 		}
 	}
-	.success-heading {
+	.tutorowl-success-heading {
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;
@@ -366,7 +373,7 @@ button.tutor-template-import-btn {
 		stroke-dashoffset: -124;
 	}
 }
-.import-item {
+.tutorowl-import-item {
 	svg {
 		width: 15px;
 		height: 15px;
@@ -397,13 +404,13 @@ button.tutor-template-import-btn {
 	}
 }
 
-.installation-progress-wrapper {
+.tutorowl-installation-progress-wrapper {
 	display: flex;
 	align-items: center;
 	margin-bottom: 15px;
 	gap: 15px;
 }
-.installation-progress-wrapper .progress {
+.tutorowl-installation-progress-wrapper .progress {
 	position: relative;
 	overflow: hidden;
 	box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.05);
@@ -413,7 +420,7 @@ button.tutor-template-import-btn {
 	width: 100%;
 	margin-bottom: 0;
 }
-.installation-progress-wrapper .progress-status {
+.tutorowl-installation-progress-wrapper .progress-status {
 	border-radius: 20px;
 	color: #fff;
 	display: flex;
@@ -426,7 +433,7 @@ button.tutor-template-import-btn {
 	background: #1973aa;
 }
 
-.danger-block {
+.tutorowl-danger-block {
 	color: #721c24;
 	background-color: #f8d7da;
 	border-color: #f5c6cb;

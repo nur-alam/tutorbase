@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
-	const installationWrapper = document.querySelector('.installation-progress-wrapper');
-	const successWrapper = document.querySelector('.success-block-wrapper');
-	const modalFooter = document.querySelector('.modal-footer');
-	const modalWrapper = document.getElementById('modal-wrapper');
-	const modalOverlay = document.querySelector('.modal-wrapper-overlay');
-	const modalContent = document.querySelector('.modal-content');
+	const installationWrapper = document.querySelector('.tutorowl-installation-progress-wrapper');
+	const successWrapper = document.querySelector('.tutorowl-success-block-wrapper');
+	const modalFooter = document.querySelector('.tutorowl-modal-footer');
+	const modalWrapper = document.getElementById('tutorowl-import-modal-wrapper');
+	const modalOverlay = document.querySelector('.tutorowl-modal-wrapper-overlay');
+	const modalContent = document.querySelector('.tutorowl-modal-content');
 	const importBtns = document.querySelectorAll('.tutor-template-import-btn');
 	const importNowBtn = document.querySelector('.import-now');
-	const importCancelBtn = document.getElementById('import-cancel-btn');
-	const modalHead = document.querySelector('.modal-head');
+	const importCancelBtn = document.getElementById('tutorowl-import-cancel-btn');
+	const modalHead = document.querySelector('.tutorowl-modal-head');
 	const modalHeading = document.querySelector('.modal-head h3');
-	const dangerBlock = document.querySelector('.danger-block');
+	const dangerBlock = document.querySelector('.tutorowl-danger-block');
 	let isModalClosable = true;
 	let templateId = null;
 
