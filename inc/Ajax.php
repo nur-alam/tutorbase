@@ -36,7 +36,7 @@ class Ajax {
 			return $this->response( false, 'Invalid nonce!', 'error' );
 		}
 		$plugin_name = $_POST['plugin_name'];  //phpcs:ignore
-		$plugin_info = REQUIRED_PLUGINS[ $plugin_name ];
+		$plugin_info = TUTOROWL_REQUIRED_PLUGINS[ $plugin_name ];
 		$this->installing_plugin( $plugin_info );
 	}
 
