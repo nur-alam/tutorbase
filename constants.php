@@ -8,11 +8,11 @@
 define( 'TUTOROWL_PATH', __DIR__ );
 define( 'TUTOROWL_ASSETS_PATH', __DIR__ . '/assets' );
 define( 'TUTOROWL_VERSION', '1.0.0' );
-define( 'TEMPLATE_LIST_ENDPOINT', TUTOROWL_PATH . '/assets/droip-layouts.json' );
+define( 'TUTOROWL_TEMPLATE_LIST_ENDPOINT', TUTOROWL_PATH . '/assets/droip-layouts.json' );
 
 
 define(
-	'REQUIRED_PLUGINS',
+	'TUTOROWL_REQUIRED_PLUGINS',
 	array(
 		'tutor' => array(
 			'base'  => 'tutor',
