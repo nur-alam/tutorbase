@@ -48,10 +48,8 @@ class Enqueue {
 	 */
 	public static function scripts_data() {
 		$data = array(
-			'ajax_url'         => admin_url( 'admin-ajax.php' ),
-			'nonce_value'      => wp_create_nonce( 'tutorowl_nonce' ),
-			'required_plugins' => TUTOROWL_REQUIRED_PLUGINS,
-			// 'required_plugins' => TUTOROWL_TEMPLATE_LIST_ENDPOINT,
+			'ajax_url'    => admin_url( 'admin-ajax.php' ),
+			'nonce_value' => wp_create_nonce( 'tutorowl_nonce' ),
 		);
 		return apply_filters( 'tutorowl_inline_script_data', $data );
 	}

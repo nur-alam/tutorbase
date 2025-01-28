@@ -1,22 +1,21 @@
-# Copyright (C) 2024 Tutor
+# Copyright (C) 2025 Tutor
 # This file is distributed under the GNU General Public License v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Tutor Owl 1.0.2\n"
+"Project-Id-Version: Tutor Owl 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/tutor-owl\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-24T10:04:41+00:00\n"
+"POT-Creation-Date: 2025-01-28T06:29:22+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: tutorowl\n"
 
 #. Theme Name of the theme
 #: style.css
-#: inc/Init.php:41
 msgid "Tutor Owl"
 msgstr ""
 
@@ -37,58 +36,4 @@ msgstr ""
 
 #: 404.php:13
 msgid "404 page"
-msgstr ""
-
-#: constants.php:21
-#: views/dashboard.php:103
-msgid "Tutor LMS"
-msgstr ""
-
-#: constants.php:29
-#: views/dashboard.php:115
-msgid "Droip"
-msgstr ""
-
-#: views/dashboard.php:15
-msgid "Tutor Owl Templates"
-msgstr ""
-
-#: views/dashboard.php:41
-msgid "Preview"
-msgstr ""
-
-#: views/dashboard.php:45
-msgid "Import"
-msgstr ""
-
-#: views/dashboard.php:54
-msgid "No template available."
-msgstr ""
-
-#: views/dashboard.php:67
-msgid "Music Template"
-msgstr ""
-
-#: views/dashboard.php:84
-msgid "Import Successful!"
-msgstr ""
-
-#: views/dashboard.php:86
-msgid "Bingo! Your demo site is ready. Check how it looks."
-msgstr ""
-
-#: views/dashboard.php:89
-msgid "View Site"
-msgstr ""
-
-#: views/dashboard.php:127
-msgid "Contents"
-msgstr ""
-
-#: views/dashboard.php:134
-msgid "Cancel"
-msgstr ""
-
-#: views/dashboard.php:135
-msgid "Import Now"
 msgstr ""
