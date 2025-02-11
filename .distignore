@@ -1,6 +1,6 @@
 .editorconfig
 .distignore
-.DS_Store 
+.DS_Store
 .ds_store
 .keep
 .eslintrc.json
@@ -9,7 +9,7 @@
 .gitattributes
 .github
 .gitignore
-*.zip
+\*.zip
 phpcs.xml
 readme.md
 composer.json
@@ -19,6 +19,7 @@ package-lock.json
 package.json
 webpack.mix.js
 assets/src
+mix-manifest.json
 assets/dist/mix-manifest.json
 .travis.yml
 circle.yml
