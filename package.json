@@ -7,7 +7,7 @@
 		"watch": "npx mix watch",
 		"prod": "npx mix --production",
 		"make-pot": "wp i18n make-pot --exclude='node_modules, vendor' . languages/tutorowl.pot",
-		"bundle": "wp dist-archive . . --filename-format=owl-1.0.0",
+		"bundle": "wp dist-archive . ../tutorowl-$(grep 'Version:' style.css | awk '{print $3}').zip",
 		"build": "npm run make-pot && npm run prod && npm run bundle"
 	},
 	"keywords": [],
