@@ -21,5 +21,7 @@
 		"sass": "^1.71.1",
 		"sass-loader": "^12.6.0"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"modern-normalize": "^3.0.1"
+	}
 }
