@@ -24,3 +24,5 @@ $site_icon = get_site_icon_url();
 </head>
 
 <body <?php body_class(); ?>>
+
+<?php wp_body_open(); ?>

@@ -60,5 +60,13 @@ class Setup {
 				)
 			)
 		);
+
+		add_theme_support( 'automatic-feed-links' );
+
+		add_theme_support( 'wp-block-styles' );
+
+		add_theme_support( 'responsive-embeds' );
+
+		add_theme_support( 'custom-header', array() );
 	}
 }

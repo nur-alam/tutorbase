@@ -31,6 +31,10 @@ class Enqueue {
 			// css.
 			wp_enqueue_style( 'tutorowl-main', get_template_directory_uri() . '/assets/dist/css/style.min.css', array(), filemtime( TUTOROWL_ASSETS_PATH . '/dist/css/style.min.css' ), 'all' );
 
+			if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+				wp_enqueue_script( 'comment-reply' );
+			}
+
 			// JS.
 			wp_enqueue_script( 'tutorowl-main', get_template_directory_uri() . '/assets/dist/js/app.min.js', array( 'jquery' ), filemtime( TUTOROWL_ASSETS_PATH . '/dist/js/app.min.js' ), true );
 
