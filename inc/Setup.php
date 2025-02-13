@@ -46,6 +46,8 @@ class Setup {
 				'search-form',
 				'comment-form',
 				'comment-list',
+				'style',
+				'script',
 			)
 		);
 
@@ -58,6 +60,16 @@ class Setup {
 					'default-color' => 'ffffff',
 					'default-image' => '',
 				)
+			)
+		);
+
+		add_theme_support(
+			'custom-logo',
+			array(
+				'height'      => 250,
+				'width'       => 250,
+				'flex-width'  => true,
+				'flex-height' => true,
 			)
 		);
 

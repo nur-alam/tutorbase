@@ -2,14 +2,12 @@
 /**
  * The template for displaying archive pages
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
  * @package tutorowl
  */
 
 get_header();
 ?>
-	<main class="site-main">
+	<main class="tutorowl-site-main">
 		<?php if ( have_posts() ) : ?>
 			<header class="page-header">
 				<?php

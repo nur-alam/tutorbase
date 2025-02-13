@@ -9,11 +9,11 @@
 
 get_header();
 ?>
-	<main id="tutorowl-single-page" class="site-main">
+	<main id="tutorowl-single-page" class="tutorowl-site-main">
 		<?php
 		while ( have_posts() ) :
 			the_post();
-			get_template_part( 'template-parts/content', get_post_type() );
+			get_template_part( 'template-parts/content', 'single' );
 			the_post_navigation(
 				array(
 					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'tutorowl' ) . '</span> <span class="nav-title">%title</span>',
@@ -28,5 +28,5 @@ get_header();
 		?>
 	</main><!-- #main -->
 <?php
-get_sidebar();
+// get_sidebar();
 get_footer();

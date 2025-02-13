@@ -5,8 +5,6 @@
  * This is the template that displays the area of the page that contains both the current comments
  * and the comment form.
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
  * @package tutorowl
  */
 
@@ -20,7 +18,7 @@ if ( post_password_required() ) {
 }
 ?>
 
-<div id="tutorowl_comments" class="comments-area">
+<div id="tutorowl_comments" class="tutorowl-comments-area">
 
 	<?php
 	// You can start editing here -- including this comment!
@@ -39,7 +37,7 @@ if ( post_password_required() ) {
 				printf(
 					/* translators: 1: comment count number, 2: title. */
 					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $tutorowl_comment_count, 'comments title', 'tutorowl' ) ),
-					number_format_i18n( $tutorowl_comment_count ), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+					number_format_i18n( $tutorowl_comment_count ), // phpcs:ignore
 					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
 				);
 			}

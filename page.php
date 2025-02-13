@@ -7,14 +7,12 @@
  * and that other 'pages' on your WordPress site may use a
  * different template.
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
  * @package tutorowl
  */
 
 get_header();
 ?>
-	<main id="primary" class="site-main">
+	<main class="tutorowl-site-main">
 		<?php
 		while ( have_posts() ) :
 			the_post();
@@ -27,5 +25,5 @@ get_header();
 		?>
 	</main><!-- #main -->
 <?php
-get_sidebar();
+
 get_footer();

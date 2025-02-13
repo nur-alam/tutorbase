@@ -2,14 +2,12 @@
 /**
  * The template for displaying search results pages
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
- *
  * @package tutorowl
  */
 
 get_header();
 ?>
-	<main id="primary" class="site-main">
+	<main id="tutorowl-search-wrapper" class="tutorowl-site-main">
 		<?php if ( have_posts() ) : ?>
 			<header class="page-header">
 				<h1 class="page-title">
