@@ -14,4 +14,4 @@ if ( ! is_active_sidebar( 'tutorowl-sidebar-1' ) ) {
 
 <aside id="tutorowl-sidebar" class="tutorowl-widget-area">
 	<?php dynamic_sidebar( 'tutorowl-sidebar-1' ); ?>
-</aside><!-- #secondary -->
+</aside>

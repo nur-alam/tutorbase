@@ -24,9 +24,9 @@ get_header();
 			if ( comments_open() || get_comments_number() ) :
 				comments_template();
 			endif;
-		endwhile; // End of the loop.
+		endwhile; // End of the while loop.
 		?>
 	</main><!-- #main -->
 <?php
-// get_sidebar();
+
 get_footer();

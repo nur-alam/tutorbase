@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-02-12T11:47:09+00:00\n"
+"POT-Creation-Date: 2025-02-14T11:25:20+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: tutorowl\n"
@@ -39,94 +39,88 @@ msgstr ""
 msgid "https://www.tutorlms.com"
 msgstr ""
 
-#: 404.php:16
+#: 404.php:14
 msgid "404 not found!"
 msgstr ""
 
-#: 404.php:20
+#: 404.php:18
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr ""
 
-#: 404.php:29
+#: 404.php:27
 msgid "Most Used Categories"
 msgstr ""
 
 #. translators: %1$s: smiley
-#: 404.php:47
+#: 404.php:45
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
 
 #. translators: 1: title.
-#: comments.php:35
+#: comments.php:33
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr ""
 
 #. translators: 1: comment count number, 2: title.
-#: comments.php:41
+#: comments.php:39
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:68
+#: comments.php:66
 msgid "Comments are closed."
 msgstr ""
 
-#: functions.php:94
+#: inc/template-functions.php:58
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:96
+#: inc/template-functions.php:60
 msgid "Add widgets here."
 msgstr ""
 
 #. translators: %s: post date.
-#: inc/template-functions.php:30
+#: inc/template-functions.php:91
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr ""
 
 #. translators: %s: post author.
-#: inc/template-functions.php:45
+#: inc/template-functions.php:106
 msgctxt "post author"
 msgid "by %s"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-#: inc/template-functions.php:61
+#: inc/template-functions.php:122
 msgid ", "
 msgstr ""
 
 #. translators: 1: list of categories.
-#: inc/template-functions.php:64
+#: inc/template-functions.php:125
 msgid "Posted in %1$s"
 msgstr ""
 
 #. translators: used between list items, there is a space after the comma
-#: inc/template-functions.php:68
+#: inc/template-functions.php:129
 msgctxt "list item separator"
 msgid ", "
 msgstr ""
 
 #. translators: 1: list of tags.
-#: inc/template-functions.php:71
+#: inc/template-functions.php:132
 msgid "Tagged %1$s"
 msgstr ""
 
 #. translators: %s: post title
-#: inc/template-functions.php:81
+#: inc/template-functions.php:142
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-functions.php:98
-#: template-parts/content-page.php:39
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
-
 #. translators: %s: search query.
-#: search.php:18
+#: search.php:16
 msgid "Search Results for: %s"
 msgstr ""
 
@@ -156,11 +150,12 @@ msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searc
 msgstr ""
 
 #: template-parts/content-page.php:25
-#: template-parts/content.php:53
+#: template-parts/content-single.php:53
+#: template-parts/content.php:39
 msgid "Pages:"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:40
+#: template-parts/content-single.php:40
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
