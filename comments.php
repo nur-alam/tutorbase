@@ -18,7 +18,7 @@ if ( post_password_required() ) {
 }
 ?>
 
-<div id="tutorowl_comments" class="tutorowl-comments-area">
+<div class="tutorowl-comments-area">
 
 	<?php
 	// You can start editing here -- including this comment!

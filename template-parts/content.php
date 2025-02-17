@@ -22,8 +22,8 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				tutorowl_posted_on();
-				tutorowl_posted_by();
+					tutorowl_posted_on();
+					tutorowl_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
