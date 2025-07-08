@@ -38,7 +38,7 @@ final class Init {
 			return $transient;
 		}
 
-		$theme_slug      = 'tutorbase'; // Folder name of your theme
+		$theme_slug      = 'tutorbase';
 		$current_version = wp_get_theme( $theme_slug )->get( 'Version' );
 
 		$args = array(
