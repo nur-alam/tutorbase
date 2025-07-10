@@ -27,7 +27,6 @@ class Setup {
 	 * @return void
 	 */
 	public function setup() {
-
 		// Load theme textdomain.
 		load_theme_textdomain( 'tutorbase', get_template_directory() . '/languages' );
 
