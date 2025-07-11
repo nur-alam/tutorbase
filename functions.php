@@ -58,17 +58,23 @@ function tutorbase_check_for_update( $transient ) {
 	$theme_slug      = 'tutorbase';
 	$current_version = wp_get_theme( $theme_slug )->get( 'Version' );
 
+	$tutor_license = get_option( 'tutor_license_info' );
+
 	$args = array(
 		'headers' => array(
 			'secret-key'   => 't344d5d71sae7dcb546b8cf55e594808',
 			'Content-Type' => 'application/json',
 		),
-		'body'    => wp_json_encode( array( 'product_slug' => 'tutor-base' ) ),
+		'body'    => wp_json_encode(
+			array(
+				'product_slug' => 'tutor-base',
+				'license_key'  => $tutor_license['license_key'] ?? '',
+			)
+		),
 		'method'  => 'POST',
 	);
 
-	// $endpoint = 'https://tutorlms.com//wp-json/themeum-products/v1/check-update';
-	$endpoint = 'http://localhost:10019/wp-json/themeum-products/v1/check-update';
+	$endpoint = 'https://tutorlms.com//wp-json/themeum-products/v1/check-update';
 
 	$product_request = wp_remote_post( $endpoint, $args );
 
