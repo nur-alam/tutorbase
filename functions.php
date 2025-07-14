@@ -46,7 +46,7 @@ add_filter( 'pre_set_site_transient_update_themes', 'tutorbase_check_for_update'
 /**
  * Tutorbase check for update function
  *
- * @param @mixed $transient $transient.
+ * @param @mixed $transient transient.
  *
  * @return @mixed return
  */
